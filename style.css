@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#009ACD;
+
+}
+.p__social{
+    color: #fff;
+}
+.divlogo{
+    display: flex;
+    align-items: center;
+}
+.menuicon{
+    height: 40px;
+}
+.p__buttonface{
+  margin: 10px 0 0 10px;
+}
+.p__buttontwitter{
+    margin: 10px 0 0 10px;
+}
+.buttonface{
+    width: 100px;
+    display: flex;
+}
+.buttontwitter{
+    width: 100px;
+    display: flex;
+    margin-left: 2rem;
+}
+.divbutton{
+    display: flex;
+    justify-content: space-around;
+}
+.logobuttonface{
+ 
+    height: 30px;
+}
+.logobuttontwitter{
+    height: 30px;
+}
+.divimage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    width: 85vw;
+    height: 60vh;
+    margin: 3rem 0 0 5rem;
+    background-image: url(assets/image_rotate.png);
+}
+.divtext{
+    margin: 0 0 2rem ;
+  
+   
+}
+.p__text{
+    width:16rem;
+    margin-left: 2rem;
+    color: white;
+    background-color:#009ACD;
+
+}
+.p__text2{
+    color: white;
+    margin-top: 5px;
+    padding-left: 2rem;
+    font-size: 25px;
+}
+.divimagecrianca{
+    background-image: url(assets/highlight-01.png);
+    width: 350px;
+    height: 215px;
+}
+.divbolis{
+    background-image: url(assets/highlight-02.png);
+    width: 350px;
+    height: 215px;
+    margin-top: 3rem;
+}
+.divsapiens{
+    background-image: url(assets/highlight-03.png);
+    width: 350px;
+    height: 215px;
+    margin-top: 3rem;
+ }
+.divimagensmain{
+    width: 71rem;
+    margin: 4rem 0 0 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.titleimg{
+    margin-bottom: 1rem;
+}
+.divmussum{
+    background-image: url(assets/divoltis_porris-01.png);
+    width: 350px;
+    height: 215px;
+    margin-top: 1rem;
+ }
+ .divporris{
+    background-image: url(assets/divoltis_porris-02.png);
+    width: 350px;
+    height: 215px;
+    margin-top: 3rem;
+
+ }
+ .divads{
+    background-image: url(assets/ads-300x600.png);
+    width: 320px;
+    height: 40rem;
+    margin-top: 3rem;
+ }
+ .divimages2{
+    width: 70rem;
+     display: flex;
+     justify-content: space-around;
+     margin: 4rem 0 0 4rem;
+ }
+.divtextmussum{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle{
+    font-size: 19px;
+    width: 21rem;
+}
+.subtext{
+    font-size: 21px;
+    color: teal;
+}
+.subtitle2{
+    font-size: 19px;
+    width: 22rem;
+}
+.divmusic{
+    display: flex;
+}
