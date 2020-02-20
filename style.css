@@ -3,13 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #ecf0f1;
+}
 header{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color:#009ACD;
+}
+.buttonlink {
+    width: 16px;
+    position: absolute;
+    top: 35rem;
+    left: 131px;
+    background-color: gray;
+    height: 1rem;
+    border-radius: 50%;
+    margin-left: 464px;
+}
+.buttonlink2{
+    width: 16px;
+    background-color: gray;
+    height: 1rem;
+    left: 250px;
+    top: 35rem;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 320px;
 
+}
+.buttonlink3{
+    width: 16px;
+    background-color: #119df8;
+    height: 1rem;
+    position: absolute;
+    top: 560px;
+    border-radius: 50%;
+    left: 546px;
+}
+.setaesquerda{
+     /* position:absolute;
+    right: 69rem;
+    bottom: 11rem; */
+}
+.buttonseta{
+    position: absolute;
+    width: 63px;
+    height: 64px;
+    right: 67rem;
+    border-radius: 50%;
+    bottom: 11rem;
+    background-color: white;
+
+}
+.buttonsetadireita{
+    width: 63px;
+    height: 64px;
+    position: absolute;
+    left: 68rem;
+    bottom: 11rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.setadireita{
+    /* position: absolute;
+    left: 69rem;
+    bottom: 11rem; */
 }
 .p__social{
     color: #fff;
@@ -27,7 +88,7 @@ header{
     background-color: rgba(255, 67, 67, 0.79);
 
 }
-.textbolis{
+.textbolis{ 
     width: 90px;
     height: 35px;;
     display: flex;
@@ -52,9 +113,7 @@ header{
 .psapien{
     margin: 1rem;
     color: white;
-
 }
-
 .divlogo{
     display: flex;
     align-items: center;
@@ -64,9 +123,11 @@ header{
 }
 .p__buttonface{
   margin: 10px 0 0 10px;
+  color: #4879b7;
 }
 .p__buttontwitter{
     margin: 10px 0 0 10px;
+    color: #119df8;
 }
 .buttonface{
     width: 100px;
@@ -91,6 +152,7 @@ header{
 .divimage{
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     display: flex;
     align-items: flex-end;
     width: 85vw;
@@ -100,8 +162,6 @@ header{
 }
 .divtext{
     margin: 0 0 2rem ;
-  
-   
 }
 .p__text{
     width:16rem;
@@ -146,12 +206,13 @@ header{
 .titleimg{
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: gray;
+    color: #808080;
 }
 .divsecondmain{
     width: 61vw;
     display: flex;
-}
+    border-bottom: 1px solid #e1e3e3;
+ }
 .title__secondmain{
     margin: 3rem 0 0 5rem;
     font-size: 2rem;
@@ -163,7 +224,7 @@ header{
 }
 .divcentral{
     display: flex;
-    margin: 2rem 0 0 5rem;
+    margin:2rem 0 0 5rem;
 }
 .imgdivinus{
     width: 360px;
@@ -214,11 +275,12 @@ header{
 .textpaisis{
     /* padding: 1rem; */
     width: 25vw;
-    color:#000080;
+    color:#2d3b51;
     font-size: 19px;
 }
 .divtextpaisis{
     padding-top: 2rem;
+    border-bottom: 1px solid#e1e3e3;
 }
 .sec__final{
     height: 100vh;
@@ -260,6 +322,7 @@ span{
 .textgotis{
     width: 11rem;
     font-size: 20px;
+    color:#2d3b51;
 }
 .span2{
     display: flex;
@@ -297,22 +360,34 @@ footer{
 }
 .pfooter{
     color: white;
-    margin-top: 5px;
+    padding: 8px;
     margin-left: 67rem;
     font-size: 20px;
 }
 .divfooter{
-    width: 100vw;
     height: 15vh;
-    background-color: #36648B;
+    display: flex;
+    justify-content: center;
+    background-color: #2d3b51;
+}
+.imglogofooter{
+    margin-right: 5rem;
+    margin-top: 1rem;
+    width: 12rem;
+    height: 5rem;
+
 }
 .p__noticias{
     width: 52rem;
     color: white;
+    margin-top: 3rem;
 }
 a{
     color: white;
 }
 .titlefooter{
     color: white;
+}
+.setafooter{
+    margin-top: 12px;
 }
